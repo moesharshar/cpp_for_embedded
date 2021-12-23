@@ -1,0 +1,29 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode"
+   ,"makefile.configurations": [
+        {
+            "name": "Default",
+            "makeArgs": []
+        },
+        {
+            "name": "Print make version",
+            "makeArgs": ["--version"]
+        },
+        {
+            "name": "Default Build Configuration",
+            "makeArgs": ["PROJ_NAME=${fileDirname}"]
+        }
+    ],
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "c:\\Users\\moush\\Desktop\\new\\ileDirname",
+            "binaryPath": "c:\\Users\\moush\\Desktop\\new\\ileDirname\\out.exe",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "c:\\new\\ileDirname",
+            "binaryPath": "c:\\new\\ileDirname\\out.exe",
+            "binaryArgs": []
+        }
+    ],
+}
